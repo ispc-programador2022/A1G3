@@ -7,5 +7,3 @@ int2 = ing2i
 def suma():
     suma = int1 + int2
     return suma
-
-suma()
