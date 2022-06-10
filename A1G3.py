@@ -1,7 +1,7 @@
 from Funciones.Presentacion import presentacion
-from Funciones.ing2i import ing2i
+from Funciones.Suma import suma
 
 presentacion()
 
-ing2i()
+suma()
 
