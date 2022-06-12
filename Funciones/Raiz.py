@@ -1,5 +1,5 @@
-from ing2i import ing1i
-from ing2i import ing2i
+from Funciones.ing2i import ing1i
+from Funciones.ing2i import ing2i
 import time
 
 def raiz():
@@ -11,4 +11,3 @@ def raiz():
     return raiz
 
 raiz()
-
