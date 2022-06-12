@@ -4,6 +4,8 @@ from Funciones.Resta import resta
 from Funciones.Multiplicacion import multiplicacion
 from Funciones.Division import division
 from Funciones.Modulo import modulo
+from Funciones.Potencia import potencia
+from Funciones.Raiz import raiz
 
 
 def operaciones():
