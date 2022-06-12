@@ -21,6 +21,10 @@ def operaciones():
         division()
     elif elegirO == "modulo":
         modulo()
+    elif elegirO == "potencia":
+        potencia()
+    elif elegirO == "raiz":
+        raiz()
     else:
         print("No ha señalado ninguna operacion")
 
