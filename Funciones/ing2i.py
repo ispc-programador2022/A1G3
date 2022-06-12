@@ -3,5 +3,5 @@ def ing1i():
     return i1
 
 def ing2i():
-    i2 = int(input("Ingresar el primer numero entero: "))
+    i2 = int(input("Ingresar el segundo numero entero: "))
     return i2
