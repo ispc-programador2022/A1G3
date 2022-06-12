@@ -9,5 +9,3 @@ def raiz():
     raiz = ing2i() ** indice
     print("EL resultado de la raiz es: " + str(raiz))
     return raiz
-
-raiz()
