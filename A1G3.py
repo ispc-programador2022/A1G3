@@ -18,6 +18,7 @@ from Funciones.FunctionModulo import FunctionModulo
 from Funciones.FunctionPotencia import FunctionPotencia
 from Funciones.FunctionRaiz import FunctionRaiz
 from Funciones.function_p1_9 import function_p1_9
+from Funciones.function_p1_10 import function_p1_10
 
 import time
 
@@ -79,6 +80,13 @@ timeApp.append([inicio,fin])
 inicio = time.time()
 num = float(input("Ingrese un numero: " ))
 print("El resultado es: ", function_p1_9(lista, num))
+time.sleep(1)
+fin = time.time()
+timeApp.append([inicio,fin])
+
+#punto 10
+inicio = time.time()
+print("El resultado es: ", function_p1_10(lista, num))
 time.sleep(1)
 fin = time.time()
 timeApp.append([inicio,fin])
