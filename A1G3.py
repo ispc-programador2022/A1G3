@@ -17,6 +17,8 @@ from Funciones.FunctionCociente import FunctionCociente
 from Funciones.FunctionModulo import FunctionModulo
 from Funciones.FunctionPotencia import FunctionPotencia
 from Funciones.FunctionRaiz import FunctionRaiz
+from Funciones.function_p1_9 import function_p1_9
+
 import time
 
 #instancias de objetos
@@ -73,8 +75,13 @@ time.sleep(1)
 fin = time.time()
 timeApp.append([inicio,fin])
 
-
-
+#punto 9
+inicio = time.time()
+num = float(input("Ingrese un numero: " ))
+print("El resultado es: ", function_p1_9(lista, num))
+time.sleep(1)
+fin = time.time()
+timeApp.append([inicio,fin])
 
 
 #tiempo de ejecucion para separar en nueva funcion...
