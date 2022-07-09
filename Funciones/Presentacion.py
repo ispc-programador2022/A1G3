@@ -4,19 +4,19 @@ class Presentation:
   
     def presentacion(self):
         users=[
-            'ABATI, KAREN',
-            'ABDENUR, LUCAS',
+#            'ABATI, KAREN',
+#            'ABDENUR, LUCAS',
             'ACUÑA, PÍA',
-            'AGUSTI, YASMIN',
-            'ALONSO, MARCOS',
+#            'AGUSTI, YASMIN',
+#            'ALONSO, MARCOS',
             'ALVAREZ, AGUSTIN',
-            'AMUSQUIBAR, BARBARA',
-            'ARANDA VILLARREAL, KEVIN AXEL',
-            'ARECO, WALTER',
+#            'AMUSQUIBAR, BARBARA',
+#            'ARANDA VILLARREAL, KEVIN AXEL',
+#            'ARECO, WALTER',
             'ARELLANO COVARRUBIAS, ADOLFO IGNACIO',
-            'ARGUELLO, SOLEDAD',
+#            'ARGUELLO, SOLEDAD',
             'ARRIOLA, GABRIEL',
-            'ASTRADA, ANDRES EMILIANO'
+#            'ASTRADA, ANDRES EMILIANO'
             ]
         print("Bienvenidos somos el Grupo 3 del Aula 1")
         print("Situación profesional 1 - Proyecto en equipo")
