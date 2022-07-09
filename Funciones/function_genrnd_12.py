@@ -15,6 +15,5 @@ def genrnd (cantidadNumerosAleatorios:int, cantidadNumerosRandint:int):
         else: # si no agregalo a la listaAleatoria con un append
             listaAleatoria.append(numeroAleatorio) 
             contador = contador + 1 
-    print(listaAleatoria)
 
-genrnd(50,999999)
+    return listaAleatoria
